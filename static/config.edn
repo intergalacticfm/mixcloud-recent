@@ -1,0 +1,8 @@
+{:mixers ["ifmx" "lstnr" "djselene" "interrference"
+          "docsleep" "marsmanpinkman" "IRONBLU" "The_Attic"
+          "discotto" "SEER_Radio" "Moguh" "Down_The_Rabbit_Hole"]
+ :s3-bucket "ifm-mixcloud"
+ :s3-key "mixcloud-recent.json"
+ :url "https://api.mixcloud.com"
+ :max-per-request 10
+ :total-results 10}
