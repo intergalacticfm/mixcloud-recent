@@ -2,8 +2,9 @@
           "docsleep" "marsmanpinkman" "IRONBLU" "The_Attic"
           "discotto" "SEER_Radio" "Moguh" "Down_The_Rabbit_Hole"
           "Casionova", "yAsh", "davidvunk", "Vergaarbak", "isabellavenis"
-          "bazreznik", "SlickChick", "Moguh", "Down_The_Rabbit_Hole",
-          "MagicWaves", "EnfantTerrible", "romskip"]
+          "bazreznik", "SlickChick", "Moguh", "Down_The_Rabbit_Hole"
+          "MagicWaves" "EnfantTerrible" "romskip" 
+          "MetalWavesRadio"]
  :s3-bucket "ifm-mixcloud"
  :s3-key "mixcloud-recent.json"
  :url "https://api.mixcloud.com"
