@@ -4,7 +4,8 @@
           "Casionova" "yAsh" "davidvunk" "Vergaarbak" "isabellavenis"
           "bazreznik" "SlickChick" "Moguh" "Down_The_Rabbit_Hole"
           "MagicWaves" "EnfantTerrible" "romskip" "ali-renault" 
-          "MetalWavesRadio" "Per_Musica_Ad_Astra" "Rude66"]
+          "MetalWavesRadio" "Per_Musica_Ad_Astra" "Rude66" 
+          "oorsmeerradio"]
  :s3-bucket "ifm-mixcloud"
  :s3-key "mixcloud-recent.json"
  :url "https://api.mixcloud.com"
