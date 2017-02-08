@@ -8,8 +8,7 @@
             [eulalie.creds :as creds]
             [glossop.util :refer [close-with!]]
             [kvlt.core :as kvlt]
-            [kvlt.chan :refer [request!]]
-            [promesa.core :as p])
+            [kvlt.chan :refer [request!]])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
 (def creds (creds/env))
