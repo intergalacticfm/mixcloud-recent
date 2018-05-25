@@ -5,7 +5,7 @@
                  [org.clojure/clojure            "1.8.0"]
                  [org.clojure/clojurescript      "1.8.51"]
                  [org.clojure/core.async         "0.2.395"]
-                 [io.nervous/cljs-lambda         "0.3.4"]
+                 [io.nervous/cljs-lambda         "0.3.5"]
 ;;                 [io.nervous/cljs-nodejs-externs "0.2.0"]
                  [io.nervous/eulalie             "0.6.10"]
                  [io.nervous/glossop             "0.2.1"]
@@ -13,12 +13,14 @@
   :plugins [[lein-cljsbuild              "1.1.2"]
             [lein-npm                    "0.6.2"]
             [lein-doo                    "0.1.7"]
-            [io.nervous/lein-cljs-lambda "0.6.4"]]
+            [io.nervous/lein-cljs-lambda "0.6.6"]]
   :npm {:dependencies [[source-map-support "0.4.0"]
                        [aws-sdk "2.3.15"]]}
+  :jvm-opts ["--add-modules" "java.xml.bind"]
   :source-paths ["src"]
   :cljs-lambda
   {:defaults {:role "arn:aws:iam::999371153281:role/cljs-lambda-default"
+              :runtime "nodejs6.10"
               :timeout 30
               :memory-size 256}
    :resource-dirs ["static"]
