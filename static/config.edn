@@ -1,6 +1,6 @@
 {:mixers ["ifmx" "lstnr" "djselene" "interrference"
-          "docsleep" "marsmanpinkman" "The_Attic"
-          "discotto" "SEER_Radio" "Moguh" "Down_The_Rabbit_Hole"
+          "docsleep" "marsmanpinkman" "discotto"
+           "SEER_Radio" "Moguh" "Down_The_Rabbit_Hole"
           "Casionova" "yAsh" "davidvunk" "Vergaarbak" "isabellavenis"
           "bazreznik" "SlickChick" "Moguh" "Down_The_Rabbit_Hole"
           "MagicWaves" "EnfantTerrible" "romskip" "ali-renault" 
